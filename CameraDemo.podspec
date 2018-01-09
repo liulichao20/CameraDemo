@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CameraDemo'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = ' CameraDemo.'
   s.requires_arc = true
   s.homepage         = 'https://github.com/liulichao20/CameraDemo'

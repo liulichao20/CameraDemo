@@ -1,0 +1,16 @@
+PODS:
+  - CameraDemo (0.2.0)
+
+DEPENDENCIES:
+  - CameraDemo (from `../`)
+
+EXTERNAL SOURCES:
+  CameraDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CameraDemo: 8cdc85b77629e7cc7e96d9608cd41bf8949684d4
+
+PODFILE CHECKSUM: de6d21e547336281e1889e88f959e1558c9aa867
+
+COCOAPODS: 1.2.1

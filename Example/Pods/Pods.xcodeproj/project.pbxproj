@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11FB8A7A75FF5F3F19577C2DADBFFDB9 /* CameraDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE36BDC54366E5E0A8F0653C118C15 /* CameraDemo-dummy.m */; };
-		20DDE24C95D25DBACCEC7AB1E69C6A75 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B198A8BF2ABD064B14AAE2BF073E9 /* CameraController.swift */; };
-		35BA86151D57DA7F01F6AC1A1FD7FF09 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7173BA4A4A819BCA4D7EA57FB60D49 /* TopView.swift */; };
+		11FB8A7A75FF5F3F19577C2DADBFFDB9 /* CameraDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69629CC18D9568DEF3C8869583FE6705 /* CameraDemo-dummy.m */; };
+		20DDE24C95D25DBACCEC7AB1E69C6A75 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99FBB88FFD00A889DFED8E492518D7 /* CameraController.swift */; };
+		3575744E774A3DC02EA7B9A52C41FB09 /* picOk.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A49675C1B4A52250A9F5E225351FBA /* picOk.png */; };
+		35BA86151D57DA7F01F6AC1A1FD7FF09 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF4F0E197428142452BC474AA2D890 /* TopView.swift */; };
+		377332D9AB7B4BEA3E31B8240AB36621 /* ON.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EE314B85AC46C30BF6A131D0E4D880 /* ON.png */; };
 		3CBF73DC1A0BD3CD1D283BDB19636C85 /* Pods-CameraDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92355459BDD5C1F78EA950D81A502D7E /* Pods-CameraDemo_Example-dummy.m */; };
 		3EA8175EBA0AB8220EEA34CF7B9DEED2 /* Pods-CameraDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F10429DD4250B89DC0E631453F7D8B /* Pods-CameraDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		451350005D0589F0EC6B2AE1FE44C388 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509508C77835AAA09CBAA88B05869E0A /* BottomView.swift */; };
-		502B74463155778E9294A4D22DF09E05 /* CameraMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632ECF43C8CEC3A5C740FC66496D830 /* CameraMan.swift */; };
+		451350005D0589F0EC6B2AE1FE44C388 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40597FD7FC5E3ADDFED0CAE187DE92 /* BottomView.swift */; };
+		4EBE17B75AAE27A1FA171CD810E18614 /* OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D23B49742EE0DD7244ABBFE18C0CCEE /* OFF.png */; };
+		502B74463155778E9294A4D22DF09E05 /* CameraMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6447C2C29BD580D296183312502BA8 /* CameraMan.swift */; };
 		532DA85E1D03F0F2CD4ABA782B9C9485 /* Pods-CameraDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 391BE86ADCB92399F8BE7AD4C34717D7 /* Pods-CameraDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EF0FB7EF1C4E9C3698616FB79B3C552 /* CameraDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 754E9B63FFB66B19FCF8A6A94627CD06 /* CameraDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		560E4D732AF0F6AADF73BD5888495051 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C656D4982A9E6B88D643B6EEA8E7B7 /* photo.png */; };
+		63A910124D60DD4FE496AE874C89CAB8 /* focusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BB20DDD6A86EF9E15DBA8D20C8C460C4 /* focusIcon.png */; };
+		6F8BD7D50DCD14285DE9C8FB298F9BB7 /* changeB.png in Resources */ = {isa = PBXBuildFile; fileRef = 02AF0E8453B2863CCC0BE04960C13CBB /* changeB.png */; };
+		72D7A1751D499673608A1E6827655900 /* AUTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB52D6EEC59E11F7368F5A00A3828A5 /* AUTO.png */; };
+		7EF0FB7EF1C4E9C3698616FB79B3C552 /* CameraDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AF4D6F188774882968BABDD99F7D50 /* CameraDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F4110C6584839A7921D553F0B883BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9E7EE720F2321AA64557C2137C24F637 /* Pods-CameraDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE220D6278B2387161EB506346687C /* Pods-CameraDemo_Tests-dummy.m */; };
-		AEC999A95FD44A36A82407B9E0CE01D0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C495F37541061D3083990D9FF01C192 /* Configuration.swift */; };
+		A377279958C18041CE5A651263E4752E /* changeF.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB425F3752C249555F3FD01ABE6815E /* changeF.png */; };
+		AEC999A95FD44A36A82407B9E0CE01D0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF89B82130728FDA0931F557B098EC /* Configuration.swift */; };
+		C079272E19A0A02780350AF3392A3EAC /* close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1DC5CC578039AB3ECABDE2C6BA3C28 /* close_button.png */; };
 		CE123DE82A75DC3016D874A07841F1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D8D4A44BDC0493EBD7D691073969CE77 /* CameraDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCCAB6616564077A8D2D22C45848DB70 /* CameraDemo.bundle */; };
-		E4754AD8F783DFB7C1417E433A92DEB9 /* CameraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDD5C2368055BE027AA703FA93BF0 /* CameraHelper.swift */; };
+		E4754AD8F783DFB7C1417E433A92DEB9 /* CameraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2324CDF2F299A1830328F671375B3046 /* CameraHelper.swift */; };
+		EB45AC4840F4A379FC15D26E1FAF77A0 /* rePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 5091011161CE38E5573822329230D703 /* rePhoto.png */; };
 		FC3075CD16479DDE350A1F22A7D9E67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,44 +53,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AF4D6F188774882968BABDD99F7D50 /* CameraDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraDemo-umbrella.h"; sourceTree = "<group>"; };
+		02AF0E8453B2863CCC0BE04960C13CBB /* changeB.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = changeB.png; sourceTree = "<group>"; };
 		0DBB5F7CE2D3B9DB3F430238D330861B /* Pods_CameraDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraDemo_Example.framework; path = "Pods-CameraDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D9DCA05FB315BBE619C00C261F7BD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		155B198A8BF2ABD064B14AAE2BF073E9 /* CameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		19DE220D6278B2387161EB506346687C /* Pods-CameraDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		28FFC98C2A10E340B04A57046638C34E /* ResourceBundle-CameraDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CameraDemo-Info.plist"; sourceTree = "<group>"; };
+		1AB52D6EEC59E11F7368F5A00A3828A5 /* AUTO.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = AUTO.png; sourceTree = "<group>"; };
+		2324CDF2F299A1830328F671375B3046 /* CameraHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraHelper.swift; sourceTree = "<group>"; };
+		23A49675C1B4A52250A9F5E225351FBA /* picOk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = picOk.png; sourceTree = "<group>"; };
+		29EE314B85AC46C30BF6A131D0E4D880 /* ON.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ON.png; sourceTree = "<group>"; };
 		37412587444960A98BF816A3F119D00C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		391BE86ADCB92399F8BE7AD4C34717D7 /* Pods-CameraDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		399AD1377AE95CF44130662D0EDAFE1F /* Pods-CameraDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A7173BA4A4A819BCA4D7EA57FB60D49 /* TopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
-		4632ECF43C8CEC3A5C740FC66496D830 /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraMan.swift; sourceTree = "<group>"; };
-		509508C77835AAA09CBAA88B05869E0A /* BottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		4D23B49742EE0DD7244ABBFE18C0CCEE /* OFF.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = OFF.png; sourceTree = "<group>"; };
+		4F99FBB88FFD00A889DFED8E492518D7 /* CameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		5091011161CE38E5573822329230D703 /* rePhoto.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = rePhoto.png; sourceTree = "<group>"; };
 		5A93ED42F5C1C46CB409B1CF6B7B0480 /* CameraDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraDemo.framework; path = CameraDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69629CC18D9568DEF3C8869583FE6705 /* CameraDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraDemo-dummy.m"; sourceTree = "<group>"; };
+		6A1DC5CC578039AB3ECABDE2C6BA3C28 /* close_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
 		6BBB7F7B0D196B288AFA71CD1B99AF49 /* Pods-CameraDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CB6695F4BFB6A66D46371C70ED613AF /* Pods-CameraDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CameraDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		750D1F1104E69ECAB758DD637DDBB413 /* Pods_CameraDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraDemo_Tests.framework; path = "Pods-CameraDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		754E9B63FFB66B19FCF8A6A94627CD06 /* CameraDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraDemo-umbrella.h"; sourceTree = "<group>"; };
-		7C061AC7A162C0042E1895CE612A48BB /* CameraDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraDemo-prefix.pch"; sourceTree = "<group>"; };
-		7C24DDD3FB566236BC6E1F5FE20C5AD9 /* CameraDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CameraDemo.modulemap; sourceTree = "<group>"; };
-		7D9994911D6EE3D98EB38E4762C55511 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F40597FD7FC5E3ADDFED0CAE187DE92 /* BottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		81F30B715E53761F4BA106FB7EFA3A63 /* Pods-CameraDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraDemo_Tests-resources.sh"; sourceTree = "<group>"; };
 		86219BAA2807DE470ECCD1010490138F /* Pods-CameraDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88BE36BDC54366E5E0A8F0653C118C15 /* CameraDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraDemo-dummy.m"; sourceTree = "<group>"; };
-		890BD77A6273406737DDB151BEC010D8 /* CameraDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraDemo.xcconfig; sourceTree = "<group>"; };
+		8A8BB726DFAABC89A894E02139408D09 /* CameraDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraDemo.xcconfig; sourceTree = "<group>"; };
 		8E8C2F11A0F18F647448918D844FAAC3 /* Pods-CameraDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92355459BDD5C1F78EA950D81A502D7E /* Pods-CameraDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EBEF7CFE671818E259578FAC518B4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		975E7F90CBD2255261CFFD37364200D9 /* Pods-CameraDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CameraDemo_Example.modulemap"; sourceTree = "<group>"; };
+		98BEE506E9C52D2C9A4F532229430D7F /* ResourceBundle-CameraDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CameraDemo-Info.plist"; sourceTree = "<group>"; };
 		99E554963CB5AE19C98E69179B7426C3 /* Pods-CameraDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B6447C2C29BD580D296183312502BA8 /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraMan.swift; sourceTree = "<group>"; };
 		9B83434DFFEBB5F8E0D5D9A70828F6E5 /* Pods-CameraDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9C495F37541061D3083990D9FF01C192 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		A1BA63E4DA7720876288BE2CF523CDA8 /* Pods-CameraDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B5E09ADF5D75325E8F18126D2F7BE33C /* CameraDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraDemo-prefix.pch"; sourceTree = "<group>"; };
+		B7C656D4982A9E6B88D643B6EEA8E7B7 /* photo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		B7DEA0831BD1D91B85C644179C4AB006 /* Pods-CameraDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraDemo_Example-resources.sh"; sourceTree = "<group>"; };
 		B8C0CBC7F862B688D369BC71EE7AFCBC /* Pods-CameraDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB20DDD6A86EF9E15DBA8D20C8C460C4 /* focusIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = focusIcon.png; sourceTree = "<group>"; };
+		BCB425F3752C249555F3FD01ABE6815E /* changeF.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = changeF.png; sourceTree = "<group>"; };
 		C2DA1C8029BFB9097C81244C19F79517 /* Pods-CameraDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5DF89B82130728FDA0931F557B098EC /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		C7AD478E3E03889E6EC12CFF30E2F6BA /* Pods-CameraDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBF4F0E197428142452BC474AA2D890 /* TopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		D4F10429DD4250B89DC0E631453F7D8B /* Pods-CameraDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraDemo_Example-umbrella.h"; sourceTree = "<group>"; };
-		D8FDDD5C2368055BE027AA703FA93BF0 /* CameraHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraHelper.swift; sourceTree = "<group>"; };
+		F32336C1B716189FAA3A8885E6E4697A /* CameraDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CameraDemo.modulemap; sourceTree = "<group>"; };
 		FCCAB6616564077A8D2D22C45848DB70 /* CameraDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CameraDemo.bundle; path = CameraDemo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,15 +139,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E5F87BBC47D2C236D9E886B52444674 /* CameraDemo */ = {
-			isa = PBXGroup;
-			children = (
-				21AC37D5CFA01B4F5CA53B2462E48B6F /* Classes */,
-			);
-			name = CameraDemo;
-			path = CameraDemo;
-			sourceTree = "<group>";
-		};
 		1438097F7CD1C7738D190486278A160D /* Pods-CameraDemo_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,28 +157,20 @@
 			path = "Target Support Files/Pods-CameraDemo_Tests";
 			sourceTree = "<group>";
 		};
-		17D534272A219971A5FE5BFA4D935942 /* CameraDemo */ = {
+		42E792CDE4AB634F43CE265F0489CDC1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E5F87BBC47D2C236D9E886B52444674 /* CameraDemo */,
-				CFCA02C18CD40D36D87F8A4EDCA20300 /* Support Files */,
+				FAE044783BAFF3D12A410BFF5642FC34 /* CameraDemo */,
 			);
-			name = CameraDemo;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		21AC37D5CFA01B4F5CA53B2462E48B6F /* Classes */ = {
+		5B03F2AEEE8B5FCDEEBE7FD28C0DACA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				509508C77835AAA09CBAA88B05869E0A /* BottomView.swift */,
-				155B198A8BF2ABD064B14AAE2BF073E9 /* CameraController.swift */,
-				D8FDDD5C2368055BE027AA703FA93BF0 /* CameraHelper.swift */,
-				4632ECF43C8CEC3A5C740FC66496D830 /* CameraMan.swift */,
-				9C495F37541061D3083990D9FF01C192 /* Configuration.swift */,
-				3A7173BA4A4A819BCA4D7EA57FB60D49 /* TopView.swift */,
+				C9F4CF04AE9B23C1543FDCE03F195D5E /* CameraDemo */,
 			);
-			name = Classes;
-			path = Classes;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		69C0E8B88E1A67EB80A3A034D5F9D4B3 /* Pods-CameraDemo_Example */ = {
@@ -192,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DB2F5D0B73147BE54A375EA3F7281C72 /* Development Pods */,
+				42E792CDE4AB634F43CE265F0489CDC1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B731053C43EAA3F4F1B93B1909D548D0 /* Products */,
 				805EDA244F56BF68502705D577913D3E /* Targets Support Files */,
@@ -206,6 +209,20 @@
 				1438097F7CD1C7738D190486278A160D /* Pods-CameraDemo_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B12951F69E4118A95EEE60B693E05CB0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F40597FD7FC5E3ADDFED0CAE187DE92 /* BottomView.swift */,
+				4F99FBB88FFD00A889DFED8E492518D7 /* CameraController.swift */,
+				2324CDF2F299A1830328F671375B3046 /* CameraHelper.swift */,
+				9B6447C2C29BD580D296183312502BA8 /* CameraMan.swift */,
+				C5DF89B82130728FDA0931F557B098EC /* Configuration.swift */,
+				CBBF4F0E197428142452BC474AA2D890 /* TopView.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B731053C43EAA3F4F1B93B1909D548D0 /* Products */ = {
@@ -227,19 +244,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFCA02C18CD40D36D87F8A4EDCA20300 /* Support Files */ = {
+		BDAEF73D757C1A8EFC1DC65106ADE3A3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7C24DDD3FB566236BC6E1F5FE20C5AD9 /* CameraDemo.modulemap */,
-				890BD77A6273406737DDB151BEC010D8 /* CameraDemo.xcconfig */,
-				88BE36BDC54366E5E0A8F0653C118C15 /* CameraDemo-dummy.m */,
-				7C061AC7A162C0042E1895CE612A48BB /* CameraDemo-prefix.pch */,
-				754E9B63FFB66B19FCF8A6A94627CD06 /* CameraDemo-umbrella.h */,
-				7D9994911D6EE3D98EB38E4762C55511 /* Info.plist */,
-				28FFC98C2A10E340B04A57046638C34E /* ResourceBundle-CameraDemo-Info.plist */,
+				F32336C1B716189FAA3A8885E6E4697A /* CameraDemo.modulemap */,
+				8A8BB726DFAABC89A894E02139408D09 /* CameraDemo.xcconfig */,
+				69629CC18D9568DEF3C8869583FE6705 /* CameraDemo-dummy.m */,
+				B5E09ADF5D75325E8F18126D2F7BE33C /* CameraDemo-prefix.pch */,
+				01AF4D6F188774882968BABDD99F7D50 /* CameraDemo-umbrella.h */,
+				95EBEF7CFE671818E259578FAC518B4E /* Info.plist */,
+				98BEE506E9C52D2C9A4F532229430D7F /* ResourceBundle-CameraDemo-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CameraDemo";
+			sourceTree = "<group>";
+		};
+		C9F4CF04AE9B23C1543FDCE03F195D5E /* CameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F5D27B2F832DAE13FC00A504D7DFA416 /* Assets */,
+			);
+			name = CameraDemo;
+			path = CameraDemo;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -250,12 +276,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DB2F5D0B73147BE54A375EA3F7281C72 /* Development Pods */ = {
+		F5D27B2F832DAE13FC00A504D7DFA416 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				17D534272A219971A5FE5BFA4D935942 /* CameraDemo */,
+				1AB52D6EEC59E11F7368F5A00A3828A5 /* AUTO.png */,
+				02AF0E8453B2863CCC0BE04960C13CBB /* changeB.png */,
+				BCB425F3752C249555F3FD01ABE6815E /* changeF.png */,
+				6A1DC5CC578039AB3ECABDE2C6BA3C28 /* close_button.png */,
+				BB20DDD6A86EF9E15DBA8D20C8C460C4 /* focusIcon.png */,
+				4D23B49742EE0DD7244ABBFE18C0CCEE /* OFF.png */,
+				29EE314B85AC46C30BF6A131D0E4D880 /* ON.png */,
+				B7C656D4982A9E6B88D643B6EEA8E7B7 /* photo.png */,
+				23A49675C1B4A52250A9F5E225351FBA /* picOk.png */,
+				5091011161CE38E5573822329230D703 /* rePhoto.png */,
 			);
-			name = "Development Pods";
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F7AE865840E3B7AFD1A1829B0100E92B /* CameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B12951F69E4118A95EEE60B693E05CB0 /* Classes */,
+			);
+			name = CameraDemo;
+			path = CameraDemo;
+			sourceTree = "<group>";
+		};
+		FAE044783BAFF3D12A410BFF5642FC34 /* CameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7AE865840E3B7AFD1A1829B0100E92B /* CameraDemo */,
+				5B03F2AEEE8B5FCDEEBE7FD28C0DACA1 /* Resources */,
+				BDAEF73D757C1A8EFC1DC65106ADE3A3 /* Support Files */,
+			);
+			name = CameraDemo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,7 +404,7 @@
 			buildPhases = (
 				37C261C2B61E452497BDDEF351D5DDB7 /* Sources */,
 				36CB5839DD46A3018430BD9391C39B99 /* Frameworks */,
-				0A6ADFD11C54A89CA5CB2EA545AFCC93 /* Resources */,
+				9FEA8F639A608F5E4D67B172D63AA692 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -389,18 +445,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A6ADFD11C54A89CA5CB2EA545AFCC93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E4F01787AF5B98BDB868A344368794D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8D4A44BDC0493EBD7D691073969CE77 /* CameraDemo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEA8F639A608F5E4D67B172D63AA692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D7A1751D499673608A1E6827655900 /* AUTO.png in Resources */,
+				6F8BD7D50DCD14285DE9C8FB298F9BB7 /* changeB.png in Resources */,
+				A377279958C18041CE5A651263E4752E /* changeF.png in Resources */,
+				C079272E19A0A02780350AF3392A3EAC /* close_button.png in Resources */,
+				63A910124D60DD4FE496AE874C89CAB8 /* focusIcon.png in Resources */,
+				4EBE17B75AAE27A1FA171CD810E18614 /* OFF.png in Resources */,
+				377332D9AB7B4BEA3E31B8240AB36621 /* ON.png in Resources */,
+				560E4D732AF0F6AADF73BD5888495051 /* photo.png in Resources */,
+				3575744E774A3DC02EA7B9A52C41FB09 /* picOk.png in Resources */,
+				EB45AC4840F4A379FC15D26E1FAF77A0 /* rePhoto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +610,7 @@
 		};
 		78AA19229B462088C12EEA0F068A2909 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890BD77A6273406737DDB151BEC010D8 /* CameraDemo.xcconfig */;
+			baseConfigurationReference = 8A8BB726DFAABC89A894E02139408D09 /* CameraDemo.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CameraDemo";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -636,7 +702,7 @@
 		};
 		B736A5E4891502E001E9D003FF2086CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890BD77A6273406737DDB151BEC010D8 /* CameraDemo.xcconfig */;
+			baseConfigurationReference = 8A8BB726DFAABC89A894E02139408D09 /* CameraDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -670,7 +736,7 @@
 		};
 		D2D66D718C3E5FD768E7EF64D76E7B7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890BD77A6273406737DDB151BEC010D8 /* CameraDemo.xcconfig */;
+			baseConfigurationReference = 8A8BB726DFAABC89A894E02139408D09 /* CameraDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -791,7 +857,7 @@
 		};
 		E9A2BC3ACCB6C2136E6D2499D12B5894 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890BD77A6273406737DDB151BEC010D8 /* CameraDemo.xcconfig */;
+			baseConfigurationReference = 8A8BB726DFAABC89A894E02139408D09 /* CameraDemo.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CameraDemo";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

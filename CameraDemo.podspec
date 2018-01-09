@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liulichao20/CameraDemo.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'CameraDemo/Classes/**/*'
-s.resource_bundles = {'CameraDemo' => ['Resources/CameraDemo/Assets/*.{png}']}
+s.resource_bundles = {'CameraDemo' => ['CameraDemo/Assets/*.{png}']}
  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end

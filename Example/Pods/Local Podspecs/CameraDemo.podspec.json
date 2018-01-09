@@ -1,6 +1,6 @@
 {
   "name": "CameraDemo",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "summary": "CameraDemo.",
   "requires_arc": true,
   "homepage": "https://github.com/liulichao20/CameraDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/liulichao20/CameraDemo.git",
-    "tag": "0.2.0"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,7 +21,7 @@
   "source_files": "CameraDemo/Classes/**/*",
   "resource_bundles": {
     "CameraDemo": [
-      "Resources/CameraDemo/Assets/*.{png}"
+      "CameraDemo/Assets/*.{png}"
     ]
   },
   "pod_target_xcconfig": {
